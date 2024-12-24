@@ -5,7 +5,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
-<title>StickyMobile BootStrap</title>
+<title>СПИСОК ОТЧЁТОВ</title>
 <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
@@ -21,136 +21,97 @@
 <div id="page">
 
     <div class="header header-fixed header-logo-center">
-        <a href="index.html" class="header-title">Sticky Mobile</a>
+        <a href="index.html" class="header-title">СПИСОК ОТЧЁТОВ</a>
         <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-arrow-left"></i></a>
         <a href="#" data-toggle-theme class="header-icon header-icon-4"><i class="fas fa-lightbulb"></i></a>
     </div>
 
-    <div id="footer-bar" class="footer-bar-1">
-        <a href="index.html"><i class="fa fa-home"></i><span>Home</span></a>
-        <a href="index-components.html"><i class="fa fa-star"></i><span>Features</span></a>
-        <a href="index-pages.html" class="active-nav"><i class="fa fa-heart"></i><span>Pages</span></a>
-        <a href="index-search.html"><i class="fa fa-search"></i><span>Search</span></a>
-        <a href="#" data-menu="menu-settings"><i class="fa fa-cog"></i><span>Settings</span></a>
+    <div id="footer-bar" class="footer-bar-2">
+        <a href="index.html"><i class="fa fa-home"></i><span>Меню</span></a>
+        <a href="report.html"><i class="fa fa-book"></i><span>Отчёты</span></a>
+        <a data-menu="menu-create-account" class="active-nav" href="#"><i class="fa fa-plus"></i><span>Добавить</span></a>
+        <a href="index-search.html"><i class="fa fa-warning"></i><span>Демоб.</span></a>
+        <a href="#" data-menu="menu-settings"><i class="fa fa-cog"></i><span>Настройки</span></a>
     </div>
 
     <div class="page-content header-clear-medium">
 
-        <div class="card card-style mb-3">
-            <div class="content">
-                <h3>Learning Categories List</h3>
-                <p>
-					Showcase the categories of your courses, in a grid card layout or card layout. It's simple and gorgeous!
-                </p>
-            </div>
-        </div>
-
 		<a href="#">
 			<div class="card card-style mb-3 py-1">
-				<div class="card-center"><span class="bg-yellow-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">FEATURED</span></div>
-				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">15 Courses</span></div>
+				<div class="card-center"><span class="bg-yellow-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">АКТИВНЫЙ</span></div>
+				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">12.12.2024</span></div>
 				<div class="d-flex">
 					<div class="ms-4 align-self-center">
-						<i class="fa fa-code color-magenta-dark fa-fw font-35 mt-3 mb-3"></i>
+						<i class="fa fa-file color-green-dark fa-fw font-35 mt-3 mb-3"></i>
 					</div>
 					<div class="ps-2 ms-2 align-self-center">
-						<h1 class="pt-4 font-20 mb-0 mt-n2">OOP Coding</h1>
-						<p class="font-11 opacity-50 mt-n2 mb-3">Learn OOP Web Coding </p>
+						<h1 class="pt-4 font-20 mb-0 mt-n2">№1 от 12.12.2024</h1>
+						<p class="font-11 opacity-50 mt-n2 mb-3">МОФ-3 (Флотация) </p>
+					</div>
+				</div>
+			</div>
+		</a>
+        <a href="#">
+			<div class="card card-style mb-3 py-1">
+				<div class="card-center"><span class="bg-red-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">ОТМЕНЁН</span></div>
+				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">12.12.2024</span></div>
+				<div class="d-flex">
+					<div class="ms-4 align-self-center">
+						<i class="fa fa-file color-green-dark fa-fw font-35 mt-3 mb-3"></i>
+					</div>
+					<div class="ps-2 ms-2 align-self-center">
+						<h1 class="pt-4 font-20 mb-0 mt-n2">№1 от 12.12.2024</h1>
+						<p class="font-11 opacity-50 mt-n2 mb-3">МОФ-3 (Флотация) </p>
 					</div>
 				</div>
 			</div>
 		</a>
 		<a href="#">
 			<div class="card card-style mb-3 py-1">
-				<div class="card-center"><span class="bg-blue-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">$5 / mo</span></div>
-				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">15 Courses</span></div>
+				<div class="card-center"><span class="bg-green-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">АКТИВНЫЙ</span></div>
+				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">12.12.2024</span></div>
 				<div class="d-flex">
 					<div class="ms-4 align-self-center">
-						<i class="fa fa-mobile color-red-dark fa-fw font-35 mt-3 mb-3"></i>
+						<i class="fa fa-file color-green-dark fa-fw font-35 mt-3 mb-3"></i>
 					</div>
 					<div class="ps-2 ms-2 align-self-center">
-						<h1 class="pt-4 font-20 mb-0 mt-n2">Mobile PWA</h1>
-						<p class="font-11 opacity-50 mt-n2 mb-3">Turn Websites to Apps </p>
+						<h1 class="pt-4 font-20 mb-0 mt-n2">№2 от 12.12.2024</h1>
+						<p class="font-11 opacity-50 mt-n2 mb-3">МОФ-3 (Флотация) </p>
 					</div>
 				</div>
 			</div>
 		</a>
 		<a href="#">
 			<div class="card card-style mb-3 py-1">
-				<div class="card-center"><span class="bg-red-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">60% OFF</span></div>
-				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">15 Courses</span></div>
+				<div class="card-center"><span class="bg-blue-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">В ПРОЦЕССЕ</span></div>
+				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">12.12.2024</span></div>
 				<div class="d-flex">
 					<div class="ms-4 align-self-center">
-						<i class="fa fa-image color-green-dark fa-fw font-35 mt-3 mb-3"></i>
+						<i class="fa fa-file color-green-dark fa-fw font-35 mt-3 mb-3"></i>
 					</div>
 					<div class="ps-2 ms-2 align-self-center">
-						<h1 class="pt-4 font-20 mb-0 mt-n2">Photo Editing</h1>
-						<p class="font-11 opacity-50 mt-n2 mb-3">Master Visual Arts </p>
+						<h1 class="pt-4 font-20 mb-0 mt-n2">№3 от 12.12.2024</h1>
+						<p class="font-11 opacity-50 mt-n2 mb-3">МОФ-3 (Флотация) </p>
 					</div>
 				</div>
 			</div>
 		</a>
 		<a href="#">
 			<div class="card card-style mb-3 py-1">
-				<div class="card-center"><span class="bg-mint-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">3 DAY TRIAL</span></div>
-				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">15 Courses</span></div>
+				<div class="card-center"><span class="bg-yellow-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">АКТИВНЫЙ</span></div>
+				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">12.12.2024</span></div>
 				<div class="d-flex">
 					<div class="ms-4 align-self-center">
-						<i class="fa fa-camera color-yellow-dark fa-fw font-35 mt-3 mb-3"></i>
+						<i class="fa fa-file color-green-dark fa-fw font-35 mt-3 mb-3"></i>
 					</div>
 					<div class="ps-2 ms-2 align-self-center">
-						<h1 class="pt-4 font-20 mb-0 mt-n2">Photography</h1>
-						<p class="font-11 opacity-50 mt-n2 mb-3">Turn Photos into Art </p>
-					</div>
-				</div>
-			</div>
-		</a>
-		<a href="#">
-			<div class="card card-style mb-3 py-1">
-				<div class="card-center"><span class="bg-magenta-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">FREE SAMPLE</span></div>
-				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">15 Courses</span></div>
-				<div class="d-flex">
-					<div class="ms-4 align-self-center">
-						<i class="fa fa-bold color-blue-dark fa-fw font-35 mt-3 mb-3"></i>
-					</div>
-					<div class="ps-2 ms-2 align-self-center">
-						<h1 class="pt-4 font-20 mb-0 mt-n2">Typography</h1>
-						<p class="font-11 opacity-50 mt-n2 mb-3">Master your Content </p>
-					</div>
-				</div>
-			</div>
-		</a>
-		<a href="#">
-			<div class="card card-style mb-3 py-1">
-				<div class="card-center"><span class="bg-green-dark float-end me-2 mt-n3 px-2 font-600 line-height-s mt-1 rounded-xs d-block font-10">FREE</span></div>
-				<div class="card-center"><span class="float-end me-1 color-theme opacity-50 mt-3 px-2 pb-3 pt-3 font-600 line-height-xs rounded-xs d-block font-10 text-end">15 Courses</span></div>
-				<div class="d-flex">
-					<div class="ms-4 align-self-center">
-						<i class="fa fa-globe color-mint-dark fa-fw font-35 mt-3 mb-3"></i>
-					</div>
-					<div class="ps-2 ms-2 align-self-center">
-						<h1 class="pt-4 font-20 mb-0 mt-n2">SEO</h1>
-						<p class="font-11 opacity-50 mt-n2 mb-3">Rank Higher, Faster </p>
+						<h1 class="pt-4 font-20 mb-0 mt-n2">№4 от 12.12.2024</h1>
+						<p class="font-11 opacity-50 mt-n2 mb-3">МОФ-3 (Флотация) </p>
 					</div>
 				</div>
 			</div>
 		</a>
 
-
-        <div class="footer card card-style">
-            <a href="#" class="footer-title"><span class="color-highlight">StickyMobile</span></a>
-            <p class="footer-text"><span>Made with <i class="fa fa-heart color-highlight font-16 ps-2 pe-2"></i> by Enabled</span><br><br>Powered by the best Mobile Website Developer on Envato Market. Elite Quality. Elite Products.</p>
-            <div class="text-center mb-3">
-                <a href="#" class="icon icon-xs rounded-sm shadow-l me-1 bg-facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="icon icon-xs rounded-sm shadow-l me-1 bg-twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="icon icon-xs rounded-sm shadow-l me-1 bg-phone"><i class="fa fa-phone"></i></a>
-                <a href="#" data-menu="menu-share" class="icon icon-xs rounded-sm me-1 shadow-l bg-red-dark"><i class="fa fa-share-alt"></i></a>
-                <a href="#" class="back-to-top icon icon-xs rounded-sm shadow-l bg-dark-light"><i class="fa fa-angle-up"></i></a>
-            </div>
-            <p class="footer-copyright">Copyright &copy; Enabled <span id="copyright-year">2017</span>. All Rights Reserved.</p>
-            <p class="footer-links"><a href="#" class="color-highlight">Privacy Policy</a> | <a href="#" class="color-highlight">Terms and Conditions</a> | <a href="#" class="back-to-top color-highlight"> Back to Top</a></p>
-            <div class="clear"></div>
-        </div>
 
     </div>
     <!-- End of Page Content-->
